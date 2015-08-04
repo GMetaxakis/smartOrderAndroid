@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tei.kav.smartorder.MainActivity" >
+
+    <TextView
+        style="@style/myTextView"
+        android:text="@string/checkIPandPORT"
+        android:paddingBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+	        style="@style/myTextView"
+            android:text="@string/ip" />
+
+        <EditText
+            android:id="@+id/ipEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/myEditText"
+            android:digits="0123456789."
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/ipExample" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            style="@style/myTextView"
+            android:text="@string/port" />
+
+        <EditText
+            android:id="@+id/portEditText"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            style="@style/myEditText"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/portExample" />
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            style="@style/myTextView"
+            android:text="@string/username" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/myEditText"
+            android:inputType="text"
+            android:text="@string/usernamedef" />
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            style="@style/myTextView"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/myEditText"
+            android:inputType="text"
+            android:text="@string/passworddef" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/checkIpAndPortBtn"
+		style="@style/myButton"
+        android:text="@string/check"
+        android:onClick="checkIpAndPort" />
+
+</LinearLayout>

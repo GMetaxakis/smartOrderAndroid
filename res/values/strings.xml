@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Order</string>
+    <string name="checkIPandPORT">Συμπλήρωσε IP και PORT</string>
+    <string name="ip">IP : </string>
+    <string name="ipExample">192.168.1.65</string>
+    <string name="port">PORT : </string>
+    <string name="portExample">8080</string>
+    <string name="check">Έλεγχος και συνέχεια</string>
+    <string name="username">Όνομα χρήστη : </string>
+    <string name="usernamedef">waiter</string>
+    <string name="password">Κωδικός : </string>
+    <string name="passworddef">waiter</string>
+    <string name="newOrder">Νέα Παραγγελία</string>
+    <string name="moneyOnHand">"Ταμείο : "</string>
+    <string name="moneyToGet">"Άνοιγμα : "</string>
+    <string name="table">Τραπέζι :</string>
+    <string name="category">Κατηγορία :</string>
+    <string name="product">Προϊόν :</string>
+    <string name="item">Είδος :</string>
+    <string name="characteristics">Χαρακτηριστικά :</string>
+    <string name="choose">Επέλεξε</string>
+    <string name="count">Πλήθος :</string>
+    <string name="cancel">Πίσω</string>
+    <string name="insert">Εισαγωγή</string>
+    <string name="sentOrder">Αποστολή</string>
+
+    
+    
+    <string-array name="countValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
